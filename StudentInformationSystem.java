@@ -16,7 +16,22 @@ public class StudentInformationSystem {
     public static void main(String[] args) {
         String name = "SAASHWIN RAAJ A/L PRAPU";
         String studID = "S86485";
+        int mark1 = 49;
+        int mark2 = 0;
+        int total = mark1 + mark2;
+        
         System.out.println("Student Name: " + name);
         System.out.println("Student ID: " + studID);
+        System.out.println("Total Mark: " + total);
+        
+        if (total >= 80){
+            System.out.println("Result: Excellent");
+        }
+        else if (total <= 40){
+            System.out.println("Result: Poor");
+        }
+        else{
+            System.out.println("Result: Needs Improvement");
+        }
     }
 }
