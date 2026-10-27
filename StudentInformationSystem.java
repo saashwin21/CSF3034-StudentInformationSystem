@@ -23,6 +23,7 @@ public class StudentInformationSystem {
         System.out.println("Student Name: " + name);
         System.out.println("Student ID: " + studID);
         System.out.println("Total Mark: " + total);
+        System.out.println("Semester: Semester 1");
         
         if (total >= 80){
             System.out.println("Result: Excellent");
